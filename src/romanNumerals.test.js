@@ -25,5 +25,10 @@ describe("covertNumbertoRomanNumerals", () => {
      test("returns roman numerals with input as number", () => {
        expect(covertNumbertoRomanNumerals(39)).toBe("XXXIX");
      });
-   
+     test("returns roman numerals with input as number", () => {
+       expect(covertNumbertoRomanNumerals(465)).toBe("CDLXV");
+     });
+      test("returns roman numerals with input as number", () => {
+        expect(covertNumbertoRomanNumerals(1555)).toBe("MDLV");
+      });
 });
